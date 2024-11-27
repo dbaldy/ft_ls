@@ -75,9 +75,6 @@ void			check_flags(char *str)
 
 int				analyse(char **argv, int *i, int argc)
 {
-	int		flag;
-
-	flag = 0;
 	while (*i < argc && argv[*i][0] == '-' && argv[*i][1] != '\0'
 			&& (ft_strcmp(argv[*i], "--") != 0))
 	{

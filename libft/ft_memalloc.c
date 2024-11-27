@@ -15,10 +15,8 @@
 
 void	*ft_memalloc(size_t size)
 {
-	size_t	i;
 	char	*s;
 
-	i = 0;
 	s = (char*)malloc(size);
 	if (s == NULL)
 		return (NULL);
